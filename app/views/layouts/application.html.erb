@@ -9,10 +9,11 @@
         <ul class="nav navbar-nav">
           <% if current_user%>
           <ul class="nav navbar-nav pull-right">
-          <li>Sesion iniciada como: <%=image_tag current_user.profile_image, alt: current_user.name%> @<%= current_user.name%></li>
+          <li>Sesion iniciada como: <%=image_tag current_user.profile_image, alt: current_user.name%> <%= current_user.name%></li>
           <li><%= link_to 'Cerrar sesión', logout_path, method: :delete %></li>
           <% else %>
             <%= link_to 'Iniciar sesion con Twitter', '/auth/twitter' %>
+            <%= link_to 'Iniciar sesion con Facebook', '/auth/facebook' %>
         </ul>
           <%end%>
         </ul>
