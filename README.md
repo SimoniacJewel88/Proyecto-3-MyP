@@ -1,2 +1,2 @@
-# Log-in-with-Twitter-Facebook-and-Google-demo.
-Ruby on Rails demo with twitter, facebook and google log in.
+# Log-in-with-Twitter and Facebook on Rails.
+Ruby on Rails demo with twitter and facebook log in.
